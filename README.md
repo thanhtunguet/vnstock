@@ -22,6 +22,7 @@
 ---
 
 > ⚠️ **Note**: This document begins in 🇻🇳 Vietnamese for our local community.  
+>
 > 🌐 **English version available below** — scroll or use the TOC (top-right 🟰) to navigate.
 
 ---
@@ -57,39 +58,51 @@ Tham gia ngay cộng đồng Vnstock để giao lưu, chia sẻ kinh nghiệm v�
 > `Vnstock` giúp rút ngắn thời gian xử lý dữ liệu, hỗ trợ học tập, nghiên cứu và xây dựng hệ thống phân tích giao dịch tài chính một cách hiệu quả – không chỉ là một công cụ trích xuất dữ liệu, mà là nền tảng để phát triển giải pháp đầu tư cá nhân thông minh. Thư viện được thiết kế dễ dàng sử dụng và tích hợp vào các hệ thống phân tích, nghiên cứu, trang tổng quan, hoặc bot chứng khoán.
 
 1. **Truy xuất dữ liệu qua API đơn giản**  
+
   Dễ dàng truy cập dữ liệu thông qua các hàm Python thân thiện, giúp tích hợp nhanh vào hệ thống phân tích tự động hoặc bot giao dịch.
 
 2. **Dữ liệu cổ phiếu**  
+
   Giá cổ phiếu thời gian thực, dữ liệu lịch sử, chỉ số tài chính và thông tin doanh nghiệp của các mã niêm yết.
 
 3. **Bộ lọc cổ phiếu**  
-  Hỗ trợ lọc cổ phiếu theo tiêu chí tài chính, kỹ thuật hoặc thị trường để phục vụ phân tích.
+
+  Hỗ trợ lọc cổ phiếu theo tiêu chí tài chính, kỹ thuật hoặc thị trường để phục vụ phân tích. (tạm thời không hoạt động)
 
 4. **Chỉ số thị trường (Index)**  
+
   Theo dõi hiệu suất các chỉ số trong nước (VNIndex, HNXIndex, UPCOM) và một số chỉ số quốc tế.
 
 5. **Chứng quyền (CW)**  
+
   Thông tin chứng quyền bao gồm giá, ngày đáo hạn, tổ chức phát hành và trạng thái thị trường.
 
 6. **Kim loại quý**  
+
   Cập nhật giá vàng trong nước và thế giới.
 
 7. **Hợp đồng tương lai (Phái sinh)**  
+
   Dữ liệu hợp đồng tương lai như VN30F và các kỳ hạn giao dịch.
 
 8. **Quỹ đầu tư (ETF & Quỹ mở)**  
+
   Thông tin về danh mục, hiệu suất và các chỉ số liên quan của quỹ đầu tư.
 
 9. **Trái phiếu**  
+
   Dữ liệu trái phiếu Chính phủ và doanh nghiệp bao gồm kỳ hạn, lãi suất và khối lượng giao dịch.
 
 10. **Ngoại hối (Forex)**  
+
   Tỷ giá cập nhật theo thời gian thực của các cặp tiền tệ phổ biến.
 
 11. **Tiền điện tử (Crypto)**  
+
   Giá cả và biến động thị trường của các loại tiền điện tử lớn.
 
 12. **Tin tức & sự kiện tài chính**  
+
   Tự động cập nhật tin tức, công bố thông tin doanh nghiệp và lịch sự kiện thị trường.
 
 ---
@@ -177,8 +190,9 @@ Bạn có thể hỗ trợ dự án bằng cách cực kỳ đơn giản là đ�
 
 [![Star History Chart](https://api.star-history.com/svg?repos=thinh-vu/vnstock&type=Date)](https://www.star-history.com/#thinh-vu/vnstock&Date)
 
-
 # VII. ⏱️ Cập nhật đáng chú ý
+
+- 16-01-2026: Cập nhật phiên bản trải nghiệm `3.4.0` tại Github (chưa phát hành chính thức qua PyPI)
 - 20-03-2025: Ra mắt phiên bản Vnstock `3.2.0` bổ sung thêm tính năng truy xuất dữ liệu Bộ lọc cổ phiếu.
 - 02-01-2025: Vnstock3 chính thức sử dụng tên nhận diện gói thư viện là vnstock tại trang phân phối chính thức pypi.org. Chi tiết [tại đây](https://vnstocks.com/blog/chuyen-doi-sang-vnstock3-truoc-2025)
 - 02-11-2024: Ra mắt Vnstock3 phiên bản 3.0.9. Chi tiết: [tại đây](https://vnstocks.com/docs/tai-lieu/lich-su-phien-ban#02-11-2024)
@@ -192,7 +206,7 @@ Bạn có thể hỗ trợ dự án bằng cách cực kỳ đơn giản là đ�
 
 Trước khi bắt đầu, hãy đánh dấu yêu thích để giúp dự án có thể tiếp cận tới nhiều người hơn. Cám ơn bạn!
 
-![star_project](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/docs/docs/assets/images/github_star_guide.png)
+![star_project](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/docs/docs/assets/images/github_star_guide.png)star_star_star_star_
 
 👉 Để hiểu rõ hơn về vnstock và hướng dẫn sử dụng toàn diện, bạn có thể truy cập [vnstocks.com/docs](https://vnstocks.com/docs). 
 
@@ -224,7 +238,98 @@ pip install git+https://github.com/thinh-vu/vnstock
 
 Bạn cần nạp thư viện vào môi trường Python thông qua giao diện Jupyter Notebook hoặc Terminal để có thể gọi và sử dụng các hàm được cung cấp.
 
-Có 4 cách nạp thư viện vào môi trường làm việc như sau:
+### Xác thực người dùng
+
+Phiên bản vnstock 3.4.0 bắt đầu hỗ trợ tính năng nhận diện người dùng miễn phí để mở khóa tính năng so với sử dụng theo chế độ khách.
+
+**🚀 Đăng ký API key để tăng giới hạn sử dụng:**
+
+- **Khách (Guest):**
+    - Phù hợp để thử nghiệm nhanh, xem thử tính năng. Quảng cáo hiện thường xuyên
+    - 20 requests/phút - không cần đăng ký
+    - Tải tối đa 4 kỳ báo cáo tài chính
+- **Cộng đồng (Community):**
+    - Trải nghiệm tính năng thư viện, chưa muốn gắn bó. Quảng cáo hiện thường xuyên
+    - 60 requests/phút - đăng ký miễn phí
+    - Tải tối đa 8 kỳ báo cáo tài chính
+- **Tài trợ (Sponsor):**
+    - Không quảng cáo
+    - 3-5x số lượt requests/phút so với bản miễn phí
+    - Truy cập đầy đủ các kỳ báo cáo tài chính
+    - Ủng hộ dự án phát triển công cụ & cộng đồng
+
+---
+
+## 🤖 Vibe Coding với AI để viết code Vnstock (nên thử ngay)
+
+**Đừng học code thủ công! Hãy để AI viết code chính xác cho bạn.**
+
+**📌 Đăng nhập Google để tạo tài khoản và lấy API key miễn phí tại:** https://vnstocks.com/login
+
+```python
+# Chạy lệnh và nhập API key theo hướng dẫn
+from vnstock import register_user
+register_user()
+```
+
+hoặc nhập trực tiếp API key trong code
+
+```python
+from vnstock import register_user
+register_user(api_key='vnstock_RANDOM_KEY')
+```
+
+### Bước 1: Clone Repository
+
+```bash
+git clone https://github.com/vnstock-hq/vnstock-agent-guide.git
+cd vnstock-agent-guide
+```
+
+- Nếu máy tính của bạn chưa có git, hãy tải về cài đặt [Git](https://git-scm.com/install/)
+- Nhập lệnh vào ứng dụng dòng lệnh: Terminal với macOS và Linux và là Command Prompt hoặc Powershell cho Windows 10 trở xuống, dùng Terminal nếu là Windows 11
+
+### Bước 2: Copy Instruction Files
+
+Sau khi clone, sao chép các thư mục sau ra thư mục gốc của dự án để IDE hoặc AI nhận diện chính xác. Copy thủ công hoặc chạy lệnh dưới đây với macOS, Linux.
+
+```bash
+# Copy các thư mục instruction ra thư mục gốc
+cp -r .agent ./
+cp -r .cursor ./
+cp AGENTS.md ./
+cp CLAUDE.md ./
+cp GEMINI.md ./
+```
+
+### Bước 3: Sử Dụng Với AI Agents
+
+| AI Agent               | File Instruction                  | Đặt tại thư mục gốc | Link Tải IDE                                                                                         |
+| ---------------------- | --------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Google Antigravity** | `.agent/rules/GEMINI.md`          | ✅                  | [Tải tại đây](https://antigravity.google/)                                                           |
+| **Cursor IDE**         | `.cursor/rules/instructions.md`   | ✅                  | [Tải tại đây](https://cursor.com/download)                                                           |
+| **Windsurf IDE**       | `AGENTS.md`                       | ✅                  | [Tải tại đây](https://windsurf.com/editor)                                                           |
+| **Claude Code**        | `CLAUDE.md`                       | ✅                  | [Tải tại đây](https://claude.com/product/claude-code)                                                |
+| **VS Code + Copilot**  | `.github/copilot-instructions.md` | ✅                  | [VS Code](https://code.visualstudio.com/download) + [Github Copilot](https://github.com/features/copilot/plans) |
+| **Google Colab**       | `GEMINI.md`                       | ✅                  | [Tải tại đây](https://colab.research.google.com/)                                                    |
+
+### Bước 4: Bắt đầu viết code với AI
+
+Sau khi thiết lập xong, bạn có thể yêu cầu AI viết code vnstock chính xác:
+
+**Ví dụ prompts cho AI:**
+
+- "Lấy dữ liệu giá cổ phiếu VNM từ 2024-01-01 đến nay"
+- "Phân tích báo cáo tài chính quý gần nhất của FPT"
+- "So sánh hiệu suất 5 cổ phiếu ngân hàng lớn nhất"
+
+> 🎯 **Điều kỳ diệu:** AI sẽ tự động viết code chính xác với đúng cú pháp, tham số và cấu trúc dữ liệu vnstock mới nhất, tự động chạy chương trình và trả về kết quả mà không cần sự tham gia của bạn.
+
+---
+
+## 📚 Cách sử dụng truyền thống (Thủ công)
+
+Nếu bạn muốn học và viết code thủ công, có 4 cách nạp thư viện vào môi trường làm việc như sau:
 
 ### 8.2.1. Nạp thông qua giao diện làm việc chính
 
@@ -232,7 +337,7 @@ Giao diện làm việc chính cho phép chuyển đổi nguồn và chỉ cần
 
 ```
 from vnstock import Vnstock
-stock = Vnstock().stock(symbol='VCI', source='VCI')
+stock = Vnstock().stock(symbol='VCI', source='KBS')
 stock.quote.history(start='2020-01-01', end='2024-05-25')
 ```
 
@@ -241,7 +346,7 @@ stock.quote.history(start='2020-01-01', end='2024-05-25')
 Bạn chọn nạp một trong các lớp chức năng chính. Các lớp chức năng này cho phép chuyển đổi dễ dàng nguồn dữ liệu được hỗ trợ trong khi giữ nguyên cấu trúc hàm. Cấu trúc này giúp tăng độ ổn định của mã nguồn trong tương lai khi các nguồn dữ mới được bổ sung hoặc nguồn cũ hết hiệu lực, bạn chỉ cần đổi tên nguồn để tiếp tục sử dụng.
 
 ```python
-from vnstock import Listing, Quote, Company, Finance, Trading, Screener 
+from vnstock import Listing, Quote, Company, Finance, Trading 
 ```
 
 ### 8.2.3. Nạp các lớp tính năng riêng lẻ theo nguồn dữ liệu cố định
@@ -255,7 +360,7 @@ from vnstock.explorer.vci import Listing, Quote, Company, Finance, Trading
 hoặc 
 
 ```python
-from vnstock.explorer.tcbs import Quote, Company, Finance, Trading, Screener
+from vnstock.explorer.kbs import Quote, Company, Finance, Trading
 ```
 
 ## 8.3. Danh sách niêm yết
@@ -264,7 +369,7 @@ from vnstock.explorer.tcbs import Quote, Company, Finance, Trading, Screener
 
 ```python
 from vnstock import Listing
-listing = Listing()
+listing = Listing(source='KBS')
 listing.all_symbols()
 ```
 
@@ -273,17 +378,17 @@ listing.all_symbols()
 ### Giá lịch sử
 
 ```python
-from vnstock import Vnstock
-stock = Vnstock().stock(symbol='ACB', source='VCI')
-stock.quote.history(start='2024-01-01', end='2025-03-19', interval='1D')
+from vnstock import Quote
+quote = Quote(symbol='ACB', source='KBS')
+quote.history(length='90', interval='d')
 ```
 
 hoặc
 
 ```python
 from vnstock import Quote
-quote = Quote(symbol='ACB', source='VCI')
-quote.history(start='2024-01-01', end='2025-03-19', interval='1D')
+quote = Quote(symbol='ACB', source='KBS')
+quote.history(start='2024-01-01', end='2025-03-19', interval='d')
 ```
 
 ### 8.5. Intraday
@@ -291,56 +396,49 @@ quote.history(start='2024-01-01', end='2025-03-19', interval='1D')
 > Dữ liệu giao dịch khớp lệnh theo từng tick
 
 ```python
-stock.quote.intraday(symbol='ACB', page_size=10_000, show_log=False)
+quote.intraday(symbol='ACB', page_size=10_000, show_log=False)
 ```
 
 Chi tiết vui lòng tham khảo tài liệu và Demo Notebook.
 
 ## 5.6. Bảng giá giao dịch
 
+Thông tin sổ lệnh bid/ask hiển thị trên bảng giá.
+
 ```python
 from vnstock import Trading
-Trading(source='VCI').price_board(['VCB','ACB','TCB','BID'])
+Trading(source='KBS').price_board(['VCB','ACB','TCB','BID'])
 ```
 
 ## 8.7. Truy xuất thông tin công ty
 
 ```python
-from vnstock import Vnstock
-company = Vnstock().stock(symbol='ACB', source='VCI').company
-company.overview()
-```
-
-hoặc
-
-```python
 from vnstock import Company
-company = Company(symbol='ACB', source='VCI')
+company = Company(symbol='ACB', source='KBS')
 company.overview()
 ```
 
 ## 8.8. Truy xuất báo cáo tài chính
 
 ```python
-from vnstock import Vnstock
-stock = Vnstock().stock(symbol='VCI', source='VCI')
+from vnstock import Finance
+finance = Finance(symbol='VCI', source='KBS')
 # Bảng cân đối kế toán - năm
-stock.finance.balance_sheet(period='year', lang='vi', dropna=True)
+finance.balance_sheet(period='year')
 # Bảng cân đối kế toán - quý
-stock.finance.balance_sheet(period='quarter', lang='en', dropna=True)
+finance.balance_sheet(period='quarter')
 # Kết quả hoạt động kinh doanh
-stock.finance.income_statement(period='year', lang='vi', dropna=True)
+finance.income_statement(period='year')
 # Lưu chuyển tiền tệ
-stock.finance.cash_flow(period='year', dropna=True)
+finance.cash_flow(period='year')
 # Chỉ số tài chính
-stock.finance.ratio(period='year', lang='vi', dropna=True)
+finance.ratio(period='year', lang='vi')
 ```
 
 ## 8.9. Bộ lọc cổ phiếu
 
 ```python
-from vnstock import Screener
-stock.screener.stock(params={"exchangeName": "HOSE,HNX,UPCOM"}, limit=1700)
+# Tạm thời không hoạt động do thay đổi API từ TCBS (không còn hỗ trợ code này)
 ```
 
 ## 8.10. Dữ liệu quỹ mở
@@ -378,7 +476,7 @@ sjc_gold_price()
 
 ```python
 # Biến ratio_df lưu giá trị của phép tính vào bộ nhớ
-ratio_df = stock.finance.ratio(period='year', lang='vi', dropna=True)
+ratio_df = finance.ratio(period='year', lang='vi', dropna=True)
 
 # Xuất dữ liệu ra Excel
 ratio_df.to_excel('/nơi_lưu_file_của_bạn/tên_file-ratio_df.xlsx`, index=False')
@@ -440,40 +538,41 @@ Join the Vnstock community to share knowledge, collaborate, and stay updated wit
 > `Vnstock` reduces time-to-insight by streamlining data processing, enabling learners, researchers, and financial analysts to build their own smart investment solutions. It is more than a data extraction tool—it’s a flexible foundation for personal investing systems.
 
 1. **Easy API Access**  
+
    Retrieve financial data through simple and intuitive Python functions.
+1. **Stock Data**  
 
-2. **Stock Data**  
    Real-time prices, historical prices, financial indicators, and company profiles for listed stocks.
+1. **Stock Screener**  
 
-3. **Stock Screener**  
    Filter stocks based on financial, technical, or market criteria.
+1. **Market Indices**  
 
-4. **Market Indices**  
    Track performance of Vietnamese indices (VNIndex, HNX, UPCOM) and select global indices.
+1. **Covered Warrants (CW)**  
 
-5. **Covered Warrants (CW)**  
    Includes price, expiration, issuers, and market status of warrants.
+1. **Precious Metals**  
 
-6. **Precious Metals**  
    Domestic and international gold price updates.
+1. **Futures Contracts**  
 
-7. **Futures Contracts**  
    Derivatives like VN30F and other trading terms.
+1. **Investment Funds (ETF & Mutual Funds)**  
 
-8. **Investment Funds (ETF & Mutual Funds)**  
    Portfolio composition, performance, and key metrics.
+1. **Bonds**  
 
-9. **Bonds**  
    Government and corporate bond data, including yield, maturity, and volume.
+1. **Forex**  
 
-10. **Forex**  
-    Real-time exchange rates for major currency pairs.
+   Real-time exchange rates for major currency pairs.
+1. **Cryptocurrencies**  
 
-11. **Cryptocurrencies**  
-    Prices and market volatility for top cryptocurrencies.
+   Prices and market volatility for top cryptocurrencies.
+1. **Financial News & Events**  
 
-12. **Financial News & Events**  
-    Auto-updated financial news, disclosures, and market events calendar.
+   Auto-updated financial news, disclosures, and market events calendar.
 
 ---
 
@@ -550,7 +649,6 @@ If you've found value in vnstock and would like to join our community of support
     </a>
 </div>
 
-
 ---
 
 # VI. Star History
@@ -590,6 +688,75 @@ Example use cases in Colab Notebook:
   </a>
 </div>
 
+---
+
+## 🤖 AI-Powered Vibe Coding with Vnstock (Try Now)
+
+**Stop manual coding! Let AI write accurate code for you.**
+
+**📌 Sign in with Google to create account and get free API key at:** https://vnstocks.com/login
+
+```python
+# Run command and follow instructions to enter API key
+from vnstock import register_user
+register_user()
+```
+
+or enter API key directly in code
+
+```python
+from vnstock import register_user
+register_user(api_key='vnstock_RANDOM_KEY')
+```
+
+### Step 1: Clone Repository
+
+```bash
+git clone https://github.com/vnstock-hq/vnstock-agent-guide.git
+cd vnstock-agent-guide
+```
+
+- If you don't have git installed, download and install [Git](https://git-scm.com/install/)
+- Run command in: Terminal for macOS and Linux, Command Prompt or PowerShell for Windows 10 and below, use Terminal for Windows 11
+
+### Step 2: Copy Instruction Files
+
+After cloning, copy the following directories to your project root so IDE or AI can recognize them accurately. Copy manually or run the commands below for macOS, Linux.
+
+```bash
+# Copy instruction directories to project root
+cp -r .agent ./
+cp -r .cursor ./
+cp AGENTS.md ./
+cp CLAUDE.md ./
+cp GEMINI.md ./
+```
+
+### Step 3: Use With AI Agents
+
+| AI Agent               | File Instruction                  | Place at Project Root | Download IDE Link                                                                                    |
+| ---------------------- | --------------------------------- | --------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Google Antigravity** | `.agent/rules/GEMINI.md`          | ✅                     | [Download here](https://antigravity.google/)                                                           |
+| **Cursor IDE**         | `.cursor/rules/instructions.md`   | ✅                     | [Download here](https://cursor.com/download)                                                           |
+| **Windsurf IDE**       | `AGENTS.md`                       | ✅                     | [Download here](https://windsurf.com/editor)                                                           |
+| **Claude Code**        | `CLAUDE.md`                       | ✅                     | [Download here](https://claude.com/product/claude-code)                                                |
+| **VS Code + Copilot**  | `.github/copilot-instructions.md` | ✅                     | [VS Code](https://code.visualstudio.com/download) + [Github Copilot](https://github.com/features/copilot/plans) |
+| **Google Colab**       | `GEMINI.md`                       | ✅                     | [Download here](https://colab.research.google.com/)                                                    |
+
+### Step 4: Start Writing Code with AI
+
+After setup, you can ask AI to write accurate vnstock code:
+
+**Example AI prompts:**
+
+- "Get VNM stock price data from 2024-01-01 to present"
+- "Analyze FPT's latest quarterly financial report"
+- "Compare performance of top 5 banking stocks"
+
+> 🎯 **The Magic:** AI will automatically write accurate code with correct syntax, parameters, and vnstock data structure, run the program and return results without your participation.
+
+---
+
 ## 8.1 Installation
 
 Install or upgrade to the latest version of Vnstock via pip:
@@ -608,27 +775,47 @@ pip install git+https://github.com/thinh-vu/vnstock.git
 
 ## 8.2 Importing the Library
 
-You can import Vnstock into your Python environment using Jupyter Notebook or any Python console. There are four supported methods:
+You can import Vnstock into your Python environment using Jupyter Notebook or any Python console.
 
-### 8.2.1. Import via Unified Interface
+### User Authentication
 
-This is the primary method for loading the library, allowing you to define the data source once and reuse across functions. Ideal for analyzing a single stock with consistent settings:
+Vnstock 3.4.0 introduces user authentication for free users to unlock enhanced features compared to guest mode.
+
+**🚀 Register API key to increase usage limits:**
+
+- **Guest:**
+    - Suitable for quick testing and feature trials. Ads displayed frequently
+    - 20 requests/minute - no registration required
+    - Download up to 4 financial reporting periods
+- **Community:**
+    - Experience library features without long-term commitment. Ads displayed frequently  
+    - 60 requests/minute - free registration
+    - Download up to 8 financial reporting periods
+- **Sponsor:**
+    - No ads
+    - 3-5x more requests per minute compared to free tier
+    - Full access to all financial reporting periods
+    - Support project development & community
+
+**📌 Sign in with Google to create account and get free API key at:** https://vnstocks.com/login
 
 ```python
-from vnstock import Vnstock
-stock = Vnstock().stock(symbol='VCI', source='VCI')
-stock.quote.history(start='2020-01-01', end='2024-05-25')
+# Run command and enter API key as instructed
+from vnstock import register_user
+register_user()
 ```
 
-### 8.2.2. Import Main Functional Classes
+There are four supported methods:
+
+### 8.2.1. Import Main Functional Classes
 
 Load from core modules that support dynamic switching between data providers:
 
 ```python
-from vnstock import Listing, Quote, Company, Finance, Trading, Screener 
+from vnstock import Listing, Quote, Company, Finance, Trading
 ```
 
-### 8.2.3. Import from Specific Data Providers
+### 8.2.2. Import from Specific Data Providers
 
 For advanced users needing fixed data sources. Refer to the [source code](https://github.com/thinh-vu/vnstock/tree/main/vnstock/explorer) for details:
 
@@ -639,7 +826,7 @@ from vnstock.explorer.vci import Listing, Quote, Company, Finance, Trading
 or
 
 ```python
-from vnstock.explorer.tcbs import Quote, Company, Finance, Trading, Screener
+from vnstock.explorer.kbs import Quote, Company, Finance, Trading
 ```
 
 ---
@@ -650,7 +837,7 @@ Used for generating lists of available tickers—essential for batch operations:
 
 ```python
 from vnstock import Listing
-listing = Listing()
+listing = Listing(source='KBS')
 listing.all_symbols()
 ```
 
@@ -661,17 +848,17 @@ listing.all_symbols()
 ### Historical Prices
 
 ```python
-from vnstock import Vnstock
-stock = Vnstock().stock(symbol='ACB', source='VCI')
-stock.quote.history(start='2024-01-01', end='2025-03-19', interval='1D')
+from vnstock import Quote 
+quote = Quote(symbol='ACB', source='KBS')
+quote.history(length='90', interval='d')
 ```
 
 Or use:
 
 ```python
 from vnstock import Quote
-quote = Quote(symbol='ACB', source='VCI')
-quote.history(start='2024-01-01', end='2025-03-19', interval='1D')
+quote = Quote(symbol='ACB', source='KBS')
+quote.history(start='2024-01-01', end='2025-03-19', interval='d')
 ```
 
 ---
@@ -692,7 +879,7 @@ Get real-time quotes for multiple tickers:
 
 ```python
 from vnstock import Trading
-Trading(source='VCI').price_board(['VCB','ACB','TCB','BID'])
+Trading(source='KBS').price_board(['VCB','ACB','TCB','BID'])
 ```
 
 ---
@@ -700,16 +887,8 @@ Trading(source='VCI').price_board(['VCB','ACB','TCB','BID'])
 ## 8.7 Company Information
 
 ```python
-from vnstock import Vnstock
-company = Vnstock().stock(symbol='ACB', source='VCI').company
-company.overview()
-```
-
-Or:
-
-```python
 from vnstock import Company
-company = Company(symbol='ACB', source='VCI')
+company = Company(symbol='ACB', source='KBS')
 company.overview()
 ```
 
@@ -718,23 +897,23 @@ company.overview()
 ## 8.8 Financial Reports
 
 ```python
-from vnstock import Vnstock
-stock = Vnstock().stock(symbol='VCI', source='VCI')
+from vnstock import Finance
+finance = Finance(symbol='VCI', source='KBS')
 
 # Balance Sheet - yearly
-stock.finance.balance_sheet(period='year', lang='vi', dropna=True)
+finance.balance_sheet(period='year')
 
 # Balance Sheet - quarterly
-stock.finance.balance_sheet(period='quarter', lang='en', dropna=True)
+finance.balance_sheet(period='quarter')
 
 # Income Statement
-stock.finance.income_statement(period='year', lang='vi', dropna=True)
+finance.income_statement(period='year')
 
-# Cash Flow
-stock.finance.cash_flow(period='year', dropna=True)
+# Cash Flow Statement
+finance.cash_flow(period='year')
 
 # Financial Ratios
-stock.finance.ratio(period='year', lang='vi', dropna=True)
+finance.ratio(period='year', lang='vi')
 ```
 
 ---
@@ -742,8 +921,7 @@ stock.finance.ratio(period='year', lang='vi', dropna=True)
 ## 8.9 Stock Screener
 
 ```python
-from vnstock import Screener
-stock.screener.stock(params={"exchangeName": "HOSE,HNX,UPCOM"}, limit=1700)
+# Currently not available due to TCBS API changes (no longer supported)
 ```
 
 ---
@@ -789,7 +967,7 @@ sjc_gold_price()
 
 ```python
 # Save ratio data to memory
-ratio_df = stock.finance.ratio(period='year', lang='vi', dropna=True)
+ratio_df = finance.ratio(period='year', lang='vi', dropna=True)
 
 # Export to Excel
 ratio_df.to_excel('/your_save_path/ratio_df.xlsx', index=False)
